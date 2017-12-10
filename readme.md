@@ -3,13 +3,16 @@
 
 ## List
 1. FizzBuzz
-2. 
+2. Fibonacci
 
 ### Content
 1. Fizz Buzz
 	* See fizzbuzz.html
-	* basic algorithm to find divisible numbers
-	* 1c find all the numbers that are divisible by 3 and 5
+	* Basic algorithm to find divisible numbers
+	* Find all the numbers that are divisible by 3 and 5
 
-
-2.
+2. Fibonacci
+	* See fibonacci.html
+	* Sequence addition of last two numbers in a list
+	* First two number will be given to start the sequence
+	* Find the 10th fibonacci number. (1 will be considered as the first number)
