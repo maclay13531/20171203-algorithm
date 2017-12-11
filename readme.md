@@ -29,5 +29,5 @@
 		for(let i = 1; i < 10; i++){  
 		&nbsp;&nbsp;&nbsp;&nbsp;var numberToAdd = list[i - 1] + list[i];  
 		&nbsp;&nbsp;&nbsp;&nbsp;list.push(numberToAdd);  
-		}. 
+		}  
 		console.log(list[9]);
