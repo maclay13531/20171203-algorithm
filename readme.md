@@ -10,13 +10,13 @@
 	* See fizzbuzz.html
 	* Basic algorithm to find divisible numbers
 	* Find all the numbers that are divisible by 3 and 5
-	... 	var list = [];
-	...		for(var i = 0; i <= 100; i++){
-	...		if(i % 3 == 0 & i % 5 == 0){
-	...			list.push(i);
-	...		}
-	...	}
-	...	console.log(list);
+	... 	var list = [];..
+	...		for(var i = 0; i <= 100; i++){..
+	...		if(i % 3 == 0 & i % 5 == 0){..
+	...			list.push(i);..
+	...			}..
+	...		..}
+	...		console.log(list);..
 
 2. Fibonacci
 	* See fibonacci.html
