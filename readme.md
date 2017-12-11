@@ -24,3 +24,11 @@
 	* Sequence addition of last two numbers in a list
 	* First two number will be given to start the sequence
 	* Find the 10th fibonacci number. (1 will be considered as the first number)
+
+		var list = [1, 2];
+		for(let i = 1; i < 10; i++){
+		&nbsp;&nbsp;&nbsp;&nbsp;var numberToAdd = list[i - 1] + list[i];
+		&nbsp;&nbsp;&nbsp;&nbsp;list.push(numberToAdd);
+		}
+
+		console.log(list[9]);
