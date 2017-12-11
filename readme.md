@@ -13,9 +13,9 @@
 
 		var list = [];  
 		for(var i = 0; i <= 100; i++){  
-			if(i % 3 == 0 & i % 5 == 0){  
-				list.push(i);  
-			}  
+		&nbsp;&nbsp;&nbsp;&nbsp;if(i % 3 == 0 & i % 5 == 0){  
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;list.push(i);  
+		&nbsp;&nbsp;&nbsp;&nbsp;}  
 		}  
 		console.log(list);  
 
