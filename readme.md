@@ -30,4 +30,9 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;var numberToAdd = list[i - 1] + list[i];  
 		&nbsp;&nbsp;&nbsp;&nbsp;list.push(numberToAdd);  
 		}  
-		console.log(list[9]);
+		console.log(list[9]);  
+
+3. Bubblesort
+	* See bubblesort.html
+	* Sorting an array with unordered numbers without using a sort method
+	
