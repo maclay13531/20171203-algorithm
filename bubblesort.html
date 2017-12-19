@@ -5,6 +5,23 @@
 	<title>Bubblesort</title>
 
 	<script type="text/javascript">
+
+		var arrayToBeSortedOne = [10, 34, 50, 3, 29, 48, 30, 49, 20];
+
+		function sorting(num){
+			for(let j = 0; j < num.length; j++){
+				for(let i = 0; i < num.length - 1; i++){
+					if(num[i] > num[i + 1]){
+						var savedNum = num[i];
+						num[i] = num[i + 1];
+						num[i + 1] = savedNum;
+					}
+				}
+			}
+			console.log(arrayToBeSortedOne);
+		}
+
+		sorting(arrayToBeSortedOne);
 		
 	</script>
 	
