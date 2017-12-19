@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Longestword</title>
+
+	<script type="text/javascript">
+		var test = "I love dogs and kangaroos and cangaroos";
+		var splitTest = [];
+		var pointChecker = [];
+		var highNumber = "";
+		var finalAnswer = [];
+
+		function LongestWord(sen) { 
+			splitTest = sen.split(" ");
+			console.log(splitTest);
+			for(let i = 0; i < splitTest.length; i++){
+		  		pointChecker.push(splitTest[i].length);
+			}
+			console.log(pointChecker);
+
+			for(let i =0; i < pointChecker.length -1; i++){
+		  		if(pointChecker[i] > pointChecker[i + 1]){
+		    		highNumber = pointChecker[i];
+		  		}else{
+		    		highNumber = pointChecker[i + 1];
+		  		}
+			}
+			console.log(highNumber);
+			
+			for(let i = 0; i < splitTest.length; i++){
+		  		if(splitTest[i].length == 9){
+		    		finalAnswer.push(splitTest[i]);
+		  		}
+			}
+			console.log(finalAnswer);
+
+			if(finalAnswer.length != 1){
+		  		finalAnswer = finalAnswer[0];
+			}
+			console.log(finalAnswer);
+		}
+    
+		LongestWord(test);   	
+		
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
