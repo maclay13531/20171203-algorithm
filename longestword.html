@@ -20,16 +20,16 @@
 			console.log(pointChecker);
 
 			for(let i =0; i < pointChecker.length -1; i++){
-		  		if(pointChecker[i] > pointChecker[i + 1]){
-		    		highNumber = pointChecker[i];
-		  		}else{
-		    		highNumber = pointChecker[i + 1];
-		  		}
+		  		if(pointChecker[i] > highNumber){
+        			highNumber = pointChecker[i];
+      			}else{
+        			highNumber;
+      			}
 			}
 			console.log(highNumber);
 			
 			for(let i = 0; i < splitTest.length; i++){
-		  		if(splitTest[i].length == 9){
+		  		if(splitTest[i].length == highNumber){
 		    		finalAnswer.push(splitTest[i]);
 		  		}
 			}
@@ -42,7 +42,7 @@
 		}
     
 		LongestWord(test);   	
-		
+
 	</script>
 
 </head>
