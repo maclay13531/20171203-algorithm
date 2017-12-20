@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Factoring</title>
+
+	<script type="text/javascript">
+
+
+		function Factoring(num){
+			var finalAnswer = 1
+			var arrayForUse = [];
+			// if(isNaN(num) === true){
+			// 	console.log("Please enter a valid number");
+			// 	return;
+			// }else{
+			for(let i = 1; i < num + 1; i++){
+				arrayForUse.push(i)
+			}
+			
+			console.log(arrayForUse);
+			for(let i = 0; i < arrayForUse.length; i++){
+				finalAnswer = finalAnswer * arrayForUse[i];
+
+			}
+			console.log("multiplying " + arrayForUse  + " is " + finalAnswer);
+		}
+
+		Factoring(4);
+		Factoring(12);
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Reversing</title>
+
+	<script type="text/javascript">
+		
+		function Reversing(input){
+			var output = [];
+			var outputInString = "";
+			for(let i = 0; i < input.length; i++){
+				output.push(input[input.length - 1 - i]);
+			}
+			console.log(output);
+			for(let i = 0; i < output.length; i++){
+				outputInString = outputInString + output[i];
+			}
+			console.log(outputInString);
+		}	
+
+		Reversing("jong");
+		Reversing("Writing a strange line just because I can. Here are !@#$%$$% for no reason");
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
